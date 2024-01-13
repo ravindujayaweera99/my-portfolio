@@ -59,7 +59,7 @@
 
 .hero {
   display: flex;
-  margin: 0px 60px;
+  margin: 5% 60px;
   justify-content: center;
   align-items: center;
 }
@@ -86,4 +86,58 @@
   background-color: #2a454e;
   color: #f0f0f0;
   border: 0;
+}
+
+/* projects */
+
+.projects {
+  display: flex;
+  gap: 25px;
+  margin: 0px 60px;
+  margin-bottom: 60px;
+}
+
+#project {
+  border: 2px solid #2a454e ;
+  padding: 25px;
+  width: 400px;
+}
+
+#project .tech {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+  gap: 25px;
+}
+
+#project .tech img {
+  height: 30px;
+  padding: 0%;
+}
+
+#project h1 {
+  margin-bottom: 15px;
+  color: #2a454e;
+}
+
+#project p {
+  text-align: justify;
+}
+
+#project i {
+  font-size: 25px;
+  color: #2a454e;
+  margin-left: 2%;
+}
+
+/* footer */
+
+.footer{
+  background-color: #2a454e;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.footer p {
+  padding: 25px;
 }
