@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Overlock+SC&display=swap");
+
+/*
+#00DFC0 - light green
+#2A454E - dark green
+#F0F0F0 - ashe
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Marcellus", serif;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  margin: 15px 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #2a454e;
+}
+
+#nav-item:first-child {
+  margin-right: auto;
+}
+
+#nav-item:last-child {
+  margin-left: auto;
+}
+
+.links ul {
+  display: flex;
+}
+
+.links ul li {
+  margin-right: 50px;
+  list-style-type: none;
+  color: #2a454e;
+}
+
+.hire button {
+  background-color: rgba(124, 124, 124, 0.51);
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #2a454e;
+  color: #f0f0f0;
+  border: 0;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  margin: 0px 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.left h4 {
+  font-weight: bold;
+}
+
+.right img {
+  width: 600px;
+  aspect-ratio: 1;
+}
+
+.left button {
+  background-color: rgba(124, 124, 124, 0.51);
+  margin-top: 25px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #2a454e;
+  color: #f0f0f0;
+  border: 0;
+}
