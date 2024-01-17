@@ -130,6 +130,42 @@
   border: 0;
 }
 
+/* about */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 250px;
+}
+
+.about img {
+  width: auto;
+  height: 300px;
+}
+
+.about p {
+  text-align: justify;
+}
+
+/*skills*/
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 50px;
+}
+
+.skills img {
+  height: 100px;
+  width: auto;
+}
+
 /* projects */
 
 .projects {
